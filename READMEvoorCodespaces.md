@@ -1,4 +1,5 @@
 # Template voor oefenopgaven over HTML & Webdesign uit Fundament
+Voor gebruik in codespaces
 
 ## 1. Maak een kopie van dit template
 
