@@ -1,16 +1,7 @@
-# Template voor oefenopgaven over HTML & Webdesign uit Fundament
-Voor gebruik in codespaces
+# Python oefenopgaven uit Fundament 
+Template voor het maken van oefenopgaven over HTML & Webdesign uit Fundament
 
-## 1. Maak een kopie van dit template
-
-    - klik op groen knop "Use Template" (1)
-    - klik op "Create New Repository" (2)
-    - geef naam zoals jaar-html-klas-voornaam, bijvoorbeeld 2324-html-h4in2-sander
-    - kies private (niet public)
-
-![Use template](images/template.png)
-
-## 2. Open een Codespace van je eigen kopie
+## 1. Open een Codespace van je repository
 
     - klik op groen knop "Code" (1)
     - klik op tabje "Codespaces" (2)
@@ -18,11 +9,11 @@ Voor gebruik in codespaces
   
 ![Codespace](images/codespace.png)
 
-## 3. Zet de antwoorden op de vragen en opdrachten in de .html bestanden.
+## 2. Zet de antwoorden op de vragen en opdrachten in de .html bestanden.
 
 ![Bestanden](images/bestand.png)
 
-## 4. Bekijk het resultaat in de Simple Browser.
+## 3. Bekijk het resultaat in de Simple Browser.
 
     - Ga naar de Simple Browser tab en klik op reload
     - Als de Simple Broswer niet geopend is, dan kun je die als volgt openen:
@@ -32,7 +23,7 @@ Voor gebruik in codespaces
   
 ![Preview](images/port.png)
 
-## 5. Bewaar je antwoorden in GitHub.
+## 4. Bewaar je antwoorden in GitHub.
 
     - Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
     - Type bij "Message" enkele woorden wat je gedaan hebt (2)
@@ -40,3 +31,6 @@ Voor gebruik in codespaces
   
 ![Commit](images/commit.png)
 
+## Meer informatie over GitHub met Codespaces
+
+- https://stanislas.informatica.nu/help/codespaces/
