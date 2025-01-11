@@ -17,7 +17,7 @@
 	"portsAttributes": {
 		"3000": {
 			"label": "Live Preview",
-			"onAutoForward": "openBrowser" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
+			"onAutoForward": "openPreview" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
 		}
 	},
 	
