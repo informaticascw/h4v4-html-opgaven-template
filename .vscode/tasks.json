@@ -2,16 +2,12 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Live Preview Server",
-      "type": "shell",
-      "command": "livePreview.runServerLoggingTask",
-      "group": "none",
-      "presentation": {
-        "reveal": "always",
-        "panel": "new"
-      },
+      "type": "Live Preview",
+      "workspacePath": "/workspaces/h4v4-html-template",
+      "problemMatcher": [],
+      "label": "Live Preview: Run Server",
       "runOptions": {
-        "runOn": "folderOpen",
+        "runOn": "folderOpen"
       }
     }
   ]
