@@ -3,10 +3,11 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	// Webserver replaced by vscode extension ms-vscode.live-server Jan 2025
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/http-server:1": {}
-	},
+	// "features": {
+	//	"ghcr.io/devcontainers-contrib/features/http-server:1": {}
+	// },
 	// Use 'postStartCommand' to run commands after the container is started.
 	// "postStartCommand": "nohup bash -c 'http-server -c-1 > .nohup_webserver.out 2>&1 & rm nohup.out &'", // start webserver without cache on port 8080 nocache and leave it running in background
 	
@@ -16,8 +17,8 @@
 	],
 	"portsAttributes": {
 		"3000": {
-			"label": "Live Preview",
-			"onAutoForward": "openPreview" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
+			"label": "Live webserver",
+			"onAutoForward": "openBrowser" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
 		}
 	},
 	
@@ -26,16 +27,11 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"extensions": [
-				"ms-vsliveshare.vsliveshare",
-				"mhutchie.git-graph",
-				//"ritwickdey.LiveServer",
-				"ms-vscode.live-server"
-			]
-			,
+				"ms-vsliveshare.vsliveshare", // add google-docs like typing in same file, click on live-share button in left icon pane
+				"mhutchie.git-graph", // add graphical viewer for branches and commits, click on button in Source-Code tab
+				"ms-vscode.live-server" // add auto-update webserver to preview html files, right click on file an select Show Preview
+			],
 			"settings": {
-		//		"livePreview.hostIP": "0.0.0.0",
-		//		"livePreview.tasks.runTaskWithExternalPreview": true,
-		//		"livePreview.showServerStatusNotifications": true,
 				"livePreview.previewDebounceDelay": 500 // auto-reload the default value of 50ms causes the preview to reload while new changes are begin made and remain unnoticed.
 			}
 		}
