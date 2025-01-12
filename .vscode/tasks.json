@@ -6,6 +6,17 @@
       "workspacePath": "/workspaces/h4v4-html-template",
       "problemMatcher": [],
       "label": "Live Preview: Run Server",
+      "dependsOn": [ "livePreview.start"],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "type": "Live Preview",
+      "workspacePath": "/workspaces/h4v4-html-template",
+      "problemMatcher": [],
+      "label": "Live Preview: Run Server",
+      "dependsOn": [ "Live Preview: Start Server"],
       "runOptions": {
         "runOn": "folderOpen"
       }
