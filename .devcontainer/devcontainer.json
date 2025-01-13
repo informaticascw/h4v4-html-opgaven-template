@@ -13,17 +13,17 @@
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-		3000,
-		3001
+		3001,
+		3000
 	],
 	"portsAttributes": {
-		"3000": {
-			"label": "Live Preview webserver",
-			"onAutoForward": "openPreview" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
-		},
 		"3001": {
 			"label": "Live Preview socket",
-			"onAutoForward": "openPreview" // it seems socket needs to be opend to enable auto-update, is this a bug?
+			"onAutoForward": "openPreview" // workaround for https://github.com/microsoft/vscode-livepreview/issues/111
+		},
+		"3000": {
+			"label": "Live Preview webserver",
+			"onAutoForward": "silent" // it seems socket needs to be opend to enable auto-update, is this a bug?
 		}
 	},
 	
