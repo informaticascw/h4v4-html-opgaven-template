@@ -13,15 +13,14 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Ke
 
 ![Bestanden](images/bestand.png)
 
-## 3. Bekijk het resultaat in de Simple Browser.
+## 3. Bekijk het resultaat in een browser.
 
-    - Ga naar de Simple Browser tab en klik op reload
-    - Als de Simple Broswer niet geopend is, dan kun je die als volgt openen:
-    - Klik op Ports (1)
-    - Ga met je muis op de regel "Webserver" staan (2)
-    - Klik op het grijze icoontje rechts naast het wereldbolletje (3)
+    - Klik linksboven op het icoontje met de twee velletjes papier, zodat de explorer zichtbaar wordt.
+    - Klik met rechtermuisknop op een html-bestand, zodat een popup menu verschijnt
+    - Klik op Show Preview in het popup menu. Een voorbeeldweegave met een foutmelding verschijnt in Codespace. Er verschijnt tegelijk en nieuw browser -window.
+    - Sluit het browser-window en klik nog een keer op Show Preview. De foutmelding verdwijnt en je ziet een voorbeeldweergave van de html-pagina. Wijzigingen die je in het html-bestand maakt worden direct zichtbaar in de voorbeeldweergave. 
   
-![Preview](images/port.png)
+![Preview](images/preview.png)
 
 ## 4. Bewaar je antwoorden in GitHub.
 
