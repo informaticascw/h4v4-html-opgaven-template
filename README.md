@@ -15,11 +15,18 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Ke
 
 ## 3. Bekijk het resultaat in een browser.
 
-    - Klik linksboven op het icoontje met de twee velletjes papier, zodat de explorer zichtbaar wordt.
-    - Klik met rechtermuisknop op een html-bestand, zodat een popup menu verschijnt
-    - Klik op Show Preview in het popup menu. Een voorbeeldweegave met een foutmelding verschijnt in Codespace. Er verschijnt tegelijk en nieuw browser -window.
-    - Sluit het browser-window en klik nog een keer op Show Preview. De foutmelding verdwijnt en je ziet een voorbeeldweergave van de html-pagina. Wijzigingen die je in het html-bestand maakt worden direct zichtbaar in de voorbeeldweergave. 
-  
+Omdat er een bug (foutje) in de preview-functie zit, moet je de volgende stappen doen voordat je de eerste preview opent
+    - Klik op Ports (1)
+    - Klik op de bovenste regel (port 3000) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
+    - Klik op de bovenste regel (port 3001) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad met de melding "Upgrade Required", sluit het zojuist geopende tabblad
+    
+![Preview](images/previewbug.png)
+
+    - Klik linksboven op het icoontje met de twee velletjes papier, zodat de explorer zichtbaar wordt. (1)
+    - Klik op een .html bestand, het bestand wordt geopend (2)
+    - Klik op het Show Preview icoon in de balk boven het bestand waarin ook de naam van het bestand staat, een preview wordt geopend (3)
+    - Wijzigingen die je doet in het bestand worden direct in de preview zichtbaar
+    
 ![Preview](images/preview.png)
 
 ## 4. Bewaar je antwoorden in GitHub.

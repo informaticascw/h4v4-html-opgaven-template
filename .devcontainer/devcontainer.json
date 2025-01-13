@@ -3,27 +3,20 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	// Webserver replaced by vscode extension ms-vscode.live-server Jan 2025
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	 "features": {
-		"ghcr.io/devcontainers-contrib/features/http-server:1": {}
-	 },
-	// Use 'postStartCommand' to run commands after the container is started.
-	// "postStartCommand": "nohup bash -c 'http-server -c-1 > .nohup_webserver.out 2>&1 & rm nohup.out &'", // start webserver without cache on port 8080 nocache and leave it running in background
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// workaround for https://github.com/microsoft/vscode-livepreview/issues/111 : click on both ports before opening preview
 	"forwardPorts": [
-		3001,
-		3000
+		3000,
+		3001
 	],
 	"portsAttributes": {
-		"3001": {
-			"label": "Live Preview socket",
-			"onAutoForward": "silent" 
-		},
 		"3000": {
 			"label": "Live Preview webserver",
+			"onAutoForward": "silent" 
+		},
+		"3001": {
+			"label": "Live Preview websocket",
 			"onAutoForward": "silent" 
 		}
 	},
