@@ -16,9 +16,10 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Ke
 ## 3. Bekijk het resultaat in een browser.
 
 Omdat er een bug (foutje) in de preview-functie zit, moet je de volgende stappen doen voordat je de eerste preview opent
+
     - Klik op Ports (1)
     - Klik op de bovenste regel (port 3000) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
-    - Klik op de bovenste regel (port 3001) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad met de melding "Upgrade Required", sluit het zojuist geopende tabblad
+    - Klik op de bovenste regel (port 3001) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
     
 ![Preview](images/previewbug.png)
 
