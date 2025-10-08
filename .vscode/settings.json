@@ -12,6 +12,6 @@
         "*": false
     },
     "files.exclude": { // hide some files from the explorer in vscode
-        "**/.*": false
+        "**/.*": true
     }
 }
