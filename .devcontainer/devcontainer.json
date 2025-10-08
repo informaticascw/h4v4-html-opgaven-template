@@ -13,12 +13,17 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-		8080
+		8080,
+		8081
 	],
 	"portsAttributes": {
 		"8080": {
-			"label": "Webserver",
+			"label": "Web Server",
 			"onAutoForward": "openBrowser"
+		},
+		"8081": {
+			"label": "Do not open",
+			"onAutoForward": "ignore"
 		}
 	},
 	
