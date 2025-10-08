@@ -3,6 +3,22 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/http-server:1": {}
+	},
+	// Use 'postStartCommand' to run commands after the container is started.
+	"postStartCommand": "nohup bash -c 'npx --yes http-server -c-1 > .nohup_webserver.out 2>&1 & rm nohup.out &'", // start webserver port 8080 nocache and leave it running in background
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		8080
+	],
+	"portsAttributes": {
+		"8080": {
+			"label": "Webserver",
+			"onAutoForward": "openPreview"
+		}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "git config pull.rebase false && git config merge.ours.driver true", // configure git to use 'ours' merge strategy by default, this is not very git-like, but makes it easier for students
