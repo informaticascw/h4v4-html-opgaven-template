@@ -11,7 +11,13 @@
     "github.copilot.enable": { // disable copilot code suggestions in editor, we rather stick to autocomplete and use copilot chat for code snippets
         "*": false
     },
-    "files.exclude": { // hide some files from the explorer in vscode
-        "**/.*": true
-    }
+    "workbench.editor.openSideBySideDirection": "right", // open previews to the right instead of below
+    "workbench.editor.enablePreview": true, // keep each preview open as a normal tab (don’t reuse)
+
+    // hide .* directories and files in the editor
+    "files.exclude": {
+        "**/.*x": true
+    },
+    "liveServer.settings.port": 5501,
+    "fiveServer.navigate": true
 }
