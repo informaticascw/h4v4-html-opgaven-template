@@ -3,11 +3,14 @@
     "git.confirmSync": false, // disable pop-up with confirmation questions after click on synchronise
     "git.enableSmartCommit": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warning
     "git.postCommitCommand": "sync", // sync automatically after each commit, prevents forgetting push to github after commit
-    "git.rebaseWhenSync": true, // leads to easier flow for students in case of conflicting commits
-    "git.mergeEditor": true, // open merge-editor for files under conflict
+    "git.rebaseWhenSync": false, // leads to easier flow for students in case of conflicting commits
+    "git.mergeEditor": true, // open merge-editor when conflicts occur
     "git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
     "git.autofetchPeriod": 60, // autofetch period 60 seconds
-    "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one
+    "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one, must be false to prevent ignoring merge ours strategy
+    "github.copilot.enable": { // disable copilot code suggestions in editor, we rather stick to autocomplete and use copilot chat for code snippets
+        "*": false
+    },
     "files.exclude": { // hide some files from the explorer in vscode
         "**/.*": false
     }

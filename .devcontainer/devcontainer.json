@@ -3,6 +3,11 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "git config pull.rebase false && git config merge.ours.driver true", // configure git to use 'ours' merge strategy by default, this is not very git-like, but makes it easier for students
+	// "postCreateCommand": "git config --global merge.conflictStyle diff3" // show base in merge conficts
+
 	
 	// Configure tool-specific properties.
 	"customizations": {
