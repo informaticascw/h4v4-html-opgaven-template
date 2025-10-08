@@ -23,7 +23,7 @@
 		},
 		"8081": {
 			"label": "Do not open",
-			"onAutoForward": "ignore"
+			"onAutoForward": "silent"
 		}
 	},
 	

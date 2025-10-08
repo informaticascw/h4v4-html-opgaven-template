@@ -1,4 +1,5 @@
 {
+    // git related settings
     "git.useEditorAsCommitInput": false, // prevent editor looking like continously busy after committing with an empty message
     "git.confirmSync": false, // disable pop-up with confirmation questions after click on synchronise
     "git.enableSmartCommit": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warning
@@ -8,15 +9,16 @@
     "git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
     "git.autofetchPeriod": 60, // autofetch period 60 seconds
     "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one, must be false to prevent ignoring merge ours strategy
+
+    // copilor settings
     "github.copilot.enable": { // disable copilot code suggestions in editor, we rather stick to autocomplete and use copilot chat for code snippets
         "*": false
     },
 
     // Preview html files in browser
-    "livePreview.autoRefreshPreview": "On All Changes in Editor",
-    "livePreview.openPreviewTarget": "External Browser",
     "livePreview.portNumber": 8080,
-    "livePreview.hostIP": "0.0.0.0",
+    "livePreview.openPreviewTarget": "External Browser",
+    "livePreview.autoRefreshPreview": "On All Changes in Editor",
     "livePreview.previewDebounceDelay": 500,
 
     // hide (true) or unhide (false) .* directories and files in the editor
