@@ -1,7 +1,0 @@
-# list of files which are not pushed to github
-
-# logfile of webserver in codespaces
-.nohup_webserver.out
-
-# vite http-server files
-.vite/
