@@ -1,0 +1,4 @@
+# list of files which are not pushed to github
+
+# vite http-server files
+.vite/

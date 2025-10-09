@@ -7,28 +7,22 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Ke
     - klik op tabje "Codespaces" (2)
     - klik op "Create Codespace on main" (3)
   
-![Codespace](images/codespace.png)
+![Codespace](README_images/codespace.png)
 
 ## 2. Zet de antwoorden op de vragen en opdrachten in de .html bestanden.
 
-![Bestanden](images/bestand.png)
+![Bestanden](README_images/bestand.png)
 
 ## 3. Bekijk het resultaat in een browser.
 
-Omdat er een bug (foutje) in de preview-functie zit, moet je de volgende stappen doen voordat je de eerste preview opent
-
-    - Klik op Ports (1)
-    - Klik op de bovenste regel (port 3000) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
-    - Klik op de bovenste regel (port 3001) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
+    - Start een webserver door in de terminal het volgende commando te typen<br>
+    `npx vite`
+    - De webserver wordt geinstalleerd en gestart. Druk op [y] als daarom gevraagd wordt.
+    - Click op de link die verschijnt, terwijl je [CTRL] ingdrukt houdt. 
     
-![Preview](images/previewbug.png)
+![Preview](README_images/preview.png)
 
-    - Klik linksboven op het icoontje met de twee velletjes papier, zodat de explorer zichtbaar wordt. (1)
-    - Klik op een .html bestand, het bestand wordt geopend (2)
-    - Klik op het Show Preview icoon in de balk boven het bestand waarin ook de naam van het bestand staat, een preview wordt geopend (3)
-    - Wijzigingen die je doet in het bestand worden direct in de preview zichtbaar
-    
-![Preview](images/preview.png)
+In je browser opent een nieuw tabblad met daarop linkjes. De linkjes wijzen naar de bestanden die jij gaat maken bij de opdrachten uit de lesstof.
 
 ## 4. Bewaar je antwoorden in GitHub.
 
@@ -36,8 +30,8 @@ Omdat er een bug (foutje) in de preview-functie zit, moet je de volgende stappen
     - Type bij "Message" enkele woorden wat je gedaan hebt (2)
     - Klik op "Commit & Sync" (3)
   
-![Commit](images/commit.png)
+![Commit](README_images/commit.png)
 
 ## Meer informatie over GitHub met Codespaces
 
-- https://stanislas.informatica.nu/help/codespaces/
+- https://stanislas.informatica.nu/help/

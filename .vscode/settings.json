@@ -15,15 +15,10 @@
         "*": false
     },
 
-    // Preview html files in browser
-    "livePreview.portNumber": 8080,
-    "livePreview.openPreviewTarget": "External Browser",
-    "livePreview.autoRefreshPreview": "On All Changes in Editor",
-    "livePreview.previewDebounceDelay": 500,
-
     // hide (true) or unhide (false) .* directories and files in the editor
     "files.exclude": {
-        "**/.*": false
+        "**/.*": false,
+        "README_images/": false
     },
 
 }
