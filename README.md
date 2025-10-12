@@ -39,4 +39,4 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 ## 5. Problemen oplossen
 
 - Meer informatie over GitHub met Codespaces \
-    https://stanislas.informatica.nu/help/codespace
+    https://stanislas.informatica.nu/help/codespaces
