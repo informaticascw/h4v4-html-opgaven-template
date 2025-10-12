@@ -1,3 +1,0 @@
-#!/bin/bash
-# Pull that uses --strategy=recursive -X ours automatically
-git pull --strategy=recursive -X ours "$@"

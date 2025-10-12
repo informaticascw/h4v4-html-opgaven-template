@@ -8,7 +8,7 @@
 	// "git config pull.rebase false", => needs to be configured before first pull or merge to prevent error
 	// "cp & chmmod: dirty trick to make git automatically choose ours (current or local above remote) in case of merge conflicts. This prevents merge-conflicts. Merge-conflicts prevent code from begin saved directly, which is a major dissatisfier for students. With this merge approach they can fix conflicts afterwards by copy-pasting code from old versions, test it and do commit again.
 	// "git config --global merge.conflictStyle diff3" => show source between ours and theirs in merge conflicts
-	"postCreateCommand": "git config pull.rebase false && sudo cp .devcontainer/git-pull /usr/local/bin/git-pull && sudo chmod +x /usr/local/bin/git-pull && git config --global merge.conflictStyle diff3", 
+	"postCreateCommand": "git config pull.rebase false && sudo mv /usr/local/bin/git /usr/local/bin/git-nowrapper && sudo cp .devcontainer/git /usr/local/bin/git && sudo chmod +x /usr/local/bin/git && git config --global merge.conflictStyle diff3", 
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
