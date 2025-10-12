@@ -1,37 +1,42 @@
 # HTML oefenopgaven uit Fundament 
-Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
+Template voor het maken van oefenopgaven over HTML & Webdesign uit \
+[Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
 
-## 1. Open een Codespace van je repository
+## 1. Bekijk code.
 
-    - klik op groen knop "Code" (1)
-    - klik op tabje "Codespaces" (2)
-    - klik op "Create Codespace on main" (3)
-  
-![Codespace](README_images/codespace.png)
+- Open een Codespace
 
-## 2. Zet de antwoorden op de vragen en opdrachten in de .html bestanden.
+- Start een webserver in de terminal van de Codespace met het commando 
+    ```
+    npx vite
+    ```
+    Druk op [y] als daarom gevraagd wordt.
 
-![Bestanden](README_images/bestand.png)
+- Een popup verschijnt met de vraag of je een browser wilt openen. Klik op openen.
+
+- Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
+
+
+## 2. Maak nieuwe opdracht
+
+- Maak een volgende opdracht van \
+    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
+
+- Bestanden maak je in de juiste mapjes in je codespace.
 
 ## 3. Bekijk het resultaat in een browser.
 
-    - Start een webserver door in de terminal het volgende commando te typen<br>
-    `npx vite`
-    - De webserver wordt geinstalleerd en gestart. Druk op [y] als daarom gevraagd wordt.
-    - Click op de link die verschijnt, terwijl je [CTRL] ingdrukt houdt. 
-    
-![Preview](README_images/preview.png)
-
-In je browser opent een nieuw tabblad met daarop linkjes. De linkjes wijzen naar de bestanden die jij gaat maken bij de opdrachten uit de lesstof.
+- De aanpassingen worden automatisch in het browser-window getoond    
 
 ## 4. Bewaar je antwoorden in GitHub.
 
-    - Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
-    - Type bij "Message" enkele woorden wat je gedaan hebt (2)
-    - Klik op "Commit & Sync" (3)
+- Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
+- Type bij "Message" de opdracht waaraan je gewerkt hebt en enkele woorden wat je gedaan hebt (2)
+- Klik op "Commit & Sync" (3)
   
-![Commit](README_images/commit.png)
+![Commit](README_images/commit_small.png)
 
-## Meer informatie over GitHub met Codespaces
+## 5. Problemen oplossen
 
-- https://stanislas.informatica.nu/help/
+- Meer informatie over GitHub met Codespaces \
+    https://stanislas.informatica.nu/help/codespace
