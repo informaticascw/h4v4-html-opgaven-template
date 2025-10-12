@@ -1,4 +1,4 @@
-test 1: local, zou erin moeten komen
+test 2: local, zou erin moeten komen
 # HTML oefenopgaven uit Fundament 
 Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
 test1: remote zou erin moetne komen
@@ -36,4 +36,4 @@ In je browser opent een nieuw tabblad met daarop linkjes. De linkjes wijzen naar
 ## Meer informatie over GitHub met Codespaces
 
 - https://stanislas.informatica.nu/help/
-test 1: local, conflict maar zou moeten winnen
+test 2: local, conflict maar zou moeten winnen
