@@ -2,7 +2,7 @@
 Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
 
-## 1. Bekijk code.
+## 1. Bekijk code
 
 - Open een Codespace
 
@@ -24,11 +24,11 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 
 - Bestanden maak je in de juiste mapjes in je codespace.
 
-## 3. Bekijk het resultaat in een browser.
+## 3. Bekijk het resultaat
 
 - De aanpassingen worden automatisch in het browser-window getoond    
 
-## 4. Bewaar je antwoorden in GitHub.
+## 4. Bewaar je werk in GitHub
 
 - Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
 - Type bij "Message" de opdracht waaraan je gewerkt hebt en enkele woorden wat je gedaan hebt (2)
