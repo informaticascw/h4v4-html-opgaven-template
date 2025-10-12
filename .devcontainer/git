@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# Wrapper to override 'git pull' with -X ours strategy
-if [[ "$1" == "pull" ]]; then
-  shift
-  /usr/bin/git-nowrapper pull --strategy=recursive -X ours "$@"
-else
-  /usr/bin/git-nowrapper "$@"
-fi
