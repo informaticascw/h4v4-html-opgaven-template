@@ -34,6 +34,6 @@ In je browser opent een nieuw tabblad met daarop linkjes. De linkjes wijzen naar
 ![Commit](README_images/commit.png)
 
 ## Meer informatie over GitHub met Codespaces
-
+lekker bezig met wijzigen
 - https://stanislas.informatica.nu/help/
 test 2: remote, conflict maar zou ECHT moeten winnen
