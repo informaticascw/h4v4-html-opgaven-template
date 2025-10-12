@@ -17,8 +17,8 @@
 
     // hide (true) or unhide (false) .* directories and files in the editor
     "files.exclude": {
-        "**/.*": false,
-        "README_images/": false
+        "**/.*": true,
+        "README_images/": true
     },
 
 }
