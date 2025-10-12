@@ -1,6 +1,6 @@
 # HTML oefenopgaven uit Fundament 
 Template voor het maken van oefenopgaven over HTML & Webdesign uit [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
-
+test1: remote zou erin moetne komen
 ## 1. Open een Codespace van je repository
 
     - klik op groen knop "Code" (1)
@@ -35,3 +35,4 @@ In je browser opent een nieuw tabblad met daarop linkjes. De linkjes wijzen naar
 ## Meer informatie over GitHub met Codespaces
 
 - https://stanislas.informatica.nu/help/
+test1:remote, zou moeten verliezen in merge conflcit en niet erin meotne komen
