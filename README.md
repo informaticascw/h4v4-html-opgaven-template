@@ -8,9 +8,8 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 
 - Start een webserver in de terminal van de Codespace met het commando 
     ```
-    npx vite
+    npx -y vite
     ```
-    Druk op [y] als daarom gevraagd wordt.
 
 - Een popup verschijnt met de vraag of je een browser wilt openen. Klik op openen.
 
