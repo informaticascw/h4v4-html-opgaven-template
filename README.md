@@ -1,6 +1,6 @@
 # HTML oefenopgaven uit Fundament 
 Template voor het maken van oefenopgaven over HTML & Webdesign uit \
-[Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
+[Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
 
 ## 1. Bekijk code
 
@@ -20,7 +20,7 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 ## 2. Maak nieuwe opdracht
 
 - Maak een volgende opdracht van \
-    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10485)
+    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
 
 - Bestanden maak je in de juiste mapjes in je codespace.
 
