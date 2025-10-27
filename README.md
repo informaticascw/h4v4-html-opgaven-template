@@ -10,8 +10,10 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
     ```
     npx -y vite
     ```
+- Als je het commando knipt en plakt, dan verschijnt er de eerste keer links bovenin je scherm een popup waarin je toestemming moet geven.
+- Om het commando uit te voeren druk je op de [Enter]-toets.
 
-- Een popup verschijnt met de vraag of je een browser wilt openen. Klik op de groene knop "In Browser Openen".
+- Een popup verschijnt met de vraag of je een browser wilt openen verschijnt rechtonder in je scherm. Klik op de groene knop "In Browser Openen".
 
 - Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
 
