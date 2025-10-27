@@ -11,7 +11,7 @@ Template voor het maken van oefenopgaven over HTML & Webdesign uit \
     npx -y vite
     ```
 
-- Een popup verschijnt met de vraag of je een browser wilt openen. Klik op openen.
+- Een popup verschijnt met de vraag of je een browser wilt openen. Klik op open in Browser.
 
 - Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
 
