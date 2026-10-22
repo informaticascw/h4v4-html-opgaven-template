@@ -17,9 +17,9 @@
 
     // hide (true) or unhide (false) .* directories and files in the editor
     "files.exclude": {
-        "**/.*": true,
-        "README_images/": true,
-        "vite.config.js/": true
+        "**/.*": false,
+        "README_images/": false,
+        "vite.config.js/": false
     },
 
 }

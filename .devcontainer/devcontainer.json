@@ -5,10 +5,9 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "git config pull.rebase false", => needs to be configured before first pull or merge to prevent error
-	// "git config merge.ours.driver true", => configure git to use 'ours' merge strategy by default, this is not very git-like, but makes it easier voor studenten
-	// "git config --global merge.conflictStyle diff3" => show source between ours and theirs in merge conflicts
-	"postCreateCommand": "git config pull.rebase false && git config merge.ours.driver true && git config --global merge.conflictStyle diff3", 
+	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+	// Use 'postStartCommand' to run commands after the container is (re)started.
+	"postStartCommand": "bash .devcontainer/postStartCommand.sh",
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [

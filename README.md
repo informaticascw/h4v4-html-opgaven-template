@@ -7,12 +7,7 @@ Vanaf _Paragraaf 1.6. Zelf een HTML-bestand maken_ maak je gebruik van dit templ
 ## 1. Bekijk code
 
 - Open een Codespace
-- Start een webserver in de terminal van de Codespace met het commando 
-    ```
-    npx -y vite
-    ```
-- Als je het commando knipt en plakt, dan verschijnt er de eerste keer links bovenin je scherm een popup waarin je toestemming moet geven.
-- Om het commando uit te voeren druk je op de [Enter]-toets.
+- De Codespace start automatisch de webserver Vite.
 - Een popup verschijnt met de vraag of je een browser wilt openen verschijnt rechtonder in je scherm. Klik op de groene knop "In Browser Openen".
 - Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
 
