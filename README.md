@@ -6,15 +6,14 @@ Vanaf _Paragraaf 1.6. Zelf een HTML-bestand maken_ maak je gebruik van dit templ
 
 ## 1. Bekijk code
 
-- Open een Codespace
-- De Codespace start automatisch de webserver Vite.
+- Open een Codespace. De Codespace start automatisch de webserver Vite.
 - Een popup verschijnt met de vraag of je een browser wilt openen verschijnt rechtonder in je scherm. Klik op de groene knop "In Browser Openen".
 - Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
 
 ## 2. Maak nieuwe opdracht
 
 - Maak een volgende opdracht van \
-    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS (2025) hoofdstuk 1 tot en met 4](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
+    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 4](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
 - Bestanden maak je in de juiste mapjes in je codespace.
 
 ## 3. Bekijk het resultaat
