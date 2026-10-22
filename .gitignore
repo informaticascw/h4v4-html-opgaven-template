@@ -2,5 +2,4 @@
 
 # vite http-server files
 .vite/
-# npm packages
-node_modules/
+.vite.log
