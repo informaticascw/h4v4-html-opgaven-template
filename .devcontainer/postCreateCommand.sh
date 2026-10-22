@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install Vite for starting the development server
-npm install --global vite
+# Install Vite (see package.json) for starting the development server
+npm install
 
 # Configure git settings
 git config pull.rebase false # needs to be configured before first pull or merge to prevent error
